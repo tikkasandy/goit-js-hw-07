@@ -13,7 +13,6 @@ const createListItems = items => {
   return items.map(item => {
     const itemEl = document.createElement('li');
     itemEl.textContent = item;
-    console.log(itemEl);
     return itemEl;
   });
 }
